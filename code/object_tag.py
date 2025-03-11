@@ -292,7 +292,7 @@ def main():
         
         # Create object detection instance  
         detector = RaspberryPiObjectDetection(  
-            model_path='ssd_mobilenet_v2_coco_quant_postprocess.tflite',   
+            model_path='../models/ssd_mobilenet_v2_coco_quant_postprocess.tflite',
             model_labels='coco_labels.txt',  
             confidence_threshold=0.6  
         )  

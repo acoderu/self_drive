@@ -126,7 +126,7 @@ def main():
     # -------------------------
     # MODEL & LABELS SETUP
     # -------------------------
-    model_filename = "ssd_mobilenet_v2_coco_quant_postprocess.tflite"
+    model_filename = "../models/ssd_mobilenet_v2_coco_quant_postprocess.tflite"
     label_filename = "coco_labels.txt"
 
     # Create interpreter to run our model on the Edge TPU
